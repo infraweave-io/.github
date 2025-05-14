@@ -30,21 +30,8 @@ InfraWeave combines the power of **Terraform**/**OpenTofu** with a **Kubernetes�
 | **Fragmented tooling**                                      | One platform, multiple ways to use **CLI**, **Python SDK**, GitHub‑native workflows, or a K8s controller. |
 
 ## 👤 Who is InfraWeave for?
-* **Internal platform teams** offering golden-path infrastructure modules to application squads.
-* Cloud-native teams that want Git-driven, serverless Terraform without running another control plane.
-
-
-## 🚀 Features at a Glance
-
-* **Stacks**: bundle multiple module claims into reproducible application blueprints.
-* **Kubernetes‑style CRDs**: simple YAML like `kind: VPC` or `kind: Postgres`.
-* **Zero‑ops**: deployed as AWS Lambda / Azure Functions + serverless DB & storage.
-* **GitOps first**: PR‑driven plans & applies, surfaced as GitHub check‑runs.
-* **Backstage plugin**: read‑only catalog of Modules, Stacks, deployments & drift.
-* **Security by isolation**: central control account, per‑workload account.
-* **Versioned everything**: semantic version bumps with upgrade plans in PRs.
-* **Multi‑cloud**: today **AWS** (alpha) & **Azure** (in progress) – **GCP** coming.
-* **Built in Rust** 🦀 for performance and safety.
+* **Internal platform teams** offering golden-path infrastructure modules to application teams without exposing terraform code
+* Cloud-native teams that want git-driven, low-cost, serverless Terraform without leaving your own cloud.
 
 ```mermaid
 ---
