@@ -1,6 +1,6 @@
 # InfraWeave Platform
 
-> *Seamless, serverless infrastructure-as-code for modern platform teams*
+> _Seamless, serverless infrastructure-as-code for modern platform teams_
 
 <div style="display: flex; align-items: center; justify-content: center; gap: 10px;" align="center">
     <a href="https://preview.infraweave.io" target="_blank">
@@ -20,18 +20,19 @@ InfraWeave combines the power of **Terraform**/**OpenTofu** with a **Kubernetes�
 
 ## ✨ Why InfraWeave?
 
-| Pain                                                        | InfraWeave solution                                                                              |
-| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| **Platform team overloaded** fielding one‑off infra tickets | Self‑service **Modules** and **Stacks** available for any app team to deploy via pull requests.   |
-| **Complex Terraform codebases** hard to onboard new devs    | **Straight-forward Manifests** `kind: S3Bucket`‑style claims hide Terraform internals.        |
-| **Costly control planes**                                   | 100 % **serverless** tailored to each Cloud Service Provider (CSP). Pay \$0 when idle.                   |
-| **Resources drift silently**                              | Built‑in **drift detection** + webhook alerts                            |
-| **No single pane of glass for infra**                              | Visualize all Deployments and Modules in a unified interface                            |
+| Pain                                                        | InfraWeave solution                                                                                       |
+| ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| **Platform team overloaded** fielding one‑off infra tickets | Self‑service **Modules** and **Stacks** available for any app team to deploy via pull requests.           |
+| **Complex Terraform codebases** hard to onboard new devs    | **Straight-forward Manifests** `kind: S3Bucket`‑style claims hide Terraform internals.                    |
+| **Costly control planes**                                   | 100 % **serverless** tailored to each Cloud Service Provider (CSP). Pay \$0 when idle.                    |
+| **Resources drift silently**                                | Built‑in **drift detection** + webhook alerts                                                             |
+| **No single pane of glass for infra**                       | Visualize all Deployments and Modules in a unified interface                                              |
 | **Fragmented tooling**                                      | One platform, multiple ways to use **CLI**, **Python SDK**, GitHub‑native workflows, or a K8s controller. |
 
 ## 👤 Who is InfraWeave for?
-* **Internal platform teams** offering golden-path infrastructure modules to application teams without exposing terraform code
-* Cloud-native teams that want git-driven, low-cost, serverless Terraform without leaving your own cloud.
+
+- **Internal platform teams** offering golden-path infrastructure modules to application teams without exposing terraform code
+- Cloud-native teams that want git-driven, low-cost, serverless Terraform without leaving your own cloud.
 
 ```mermaid
 ---
@@ -60,11 +61,11 @@ flowchart LR
 
 ## 🌍 Supported Providers
 
-| Provider          | Status              |
-| ----------------- | ------------------- |
-| **AWS**           | 🧪 Beta             |
-| **Azure**         | 🚧 Alpha            |
-| **GCP**           | 🗺️ Planned End 2025 |
+| Provider          | Status                     |
+| ----------------- | -------------------------- |
+| **AWS**           | 🧪 Beta                    |
+| **Azure**         | 🚧 Preview                 |
+| **GCP**           | 🗺️ Planned in future       |
 | **OCI**           | Not planned in near future |
 | **Alibaba Cloud** | Not planned in near future |
 
@@ -76,8 +77,8 @@ All contributors must follow our [Code of Conduct](https://github.com/infraweave
 
 ## 📚 Learning & Community
 
-* **Docs** – [https://preview.infraweave.io/core-concepts/overview/](https://preview.infraweave.io/core-concepts/overview/)
-* **Discussions** – [https://github.com/orgs/infraweave-io/discussions](https://github.com/orgs/infraweave-io/discussions)
+- **Docs** – [https://preview.infraweave.io/core-concepts/overview/](https://preview.infraweave.io/core-concepts/overview/)
+- **Discussions** – [https://github.com/orgs/infraweave-io/discussions](https://github.com/orgs/infraweave-io/discussions)
 
 ## 🪪 License
 
